@@ -1,0 +1,31 @@
+@import './style.css';
+
+.main{
+    margin: 1.5rem;
+}
+
+.img-email{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.texts{
+    text-align: center;
+}
+.title{
+    font-size: 1.5rem;
+}
+.button-voltar{
+    color: (--first-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.button-voltar:hover{
+    text-decoration: underline;
+}
