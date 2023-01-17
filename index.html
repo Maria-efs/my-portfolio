@@ -9,15 +9,13 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <link rel="icon" type="image/png" href="./img/logo-port.png">
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header.css">
     <script src="./js/main.js" defer></script>
-    <script src="./js/swiper-bundle.min.js" defer></script>
     <title>Portfólio | Maria Eduarda</title>
   </head>
 
-  <body data-theme="light">
+  <body>
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav-logo">Maria</a>
@@ -25,7 +23,7 @@
         <div class="nav-menu" id="nav-menu">
           <ul class="nav-list grid">
             <li class="nav-item">
-              <a href="#home" class="nav-link">
+              <a href="#" class="nav-link">
                 <i class="uil uil-estate nav-icon"></i>
                 Início
               </a>
@@ -390,8 +388,8 @@
               <!-- Qualification 3  -->
               <div class="qualification-data">
                 <div>
-                  <h3 class="qualification-title">JS para iniciantes</h3>
-                  <span class="qualification-subtitle">Unova Cursos</span>
+                  <h3 class="qualification-title">Programador Full-Stack JS</h3>
+                  <span class="qualification-subtitle">OneBitCode</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2022
@@ -413,8 +411,8 @@
                   <!-- <span class="qualification-line"></span> -->
                 </div>
                 <div>
-                  <h3 class="qualification-title">Programador Full-Stack JS</h3>
-                  <span class="qualification-subtitle">OneBitCode</span>
+                  <h3 class="qualification-title">JS para iniciantes </h3>
+                  <span class="qualification-subtitle">Unova Cursos</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2022
@@ -523,57 +521,88 @@
       </section>
 
       <!-- PORTFOLIO -->
-      <!-- <section class="portfolio section" id="portfolio">
-        <h2 class="section-title">Portfolio</h2>
-        <span class="section-subtitle">Most recent work</span>
 
-        <div class="portfolio-container container swiper mySwiper">
-          <div class="swiper-wrapper">
-<div class="portfolio-content grid swiper-slide">
-  <img src="" alt="" class="portfolio-img">
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title" id="portfolio">Projetos</h2>
+        <span class="section-subtitle">Projetos que desenvolvi</span>
 
-  <div class="portfolio-data">
-    <h3 class="portfolio-title">Modern Website</h3>
-    <p class="portfolio-description"> Descrição jal lafal lfkadf akmadf lakfm</p>
-    <a href="#" class="button button-flex button-small portfolio-button">Demo
-      <i class="uil uil-arrow-right button-icon"></i>
-    </a>
-  </div>
-</div>
-<div class="portfolio-content grid swiper-slide">
-  <img src="" alt="" class="portfolio-img">
+        <div class="splide_wrapper">
+          <div class="splide">
+            <div class="splide__track portfolio-container container splide-container">
+              <ul class="splide__list">
+                <!-- Projeto 01 -->
+                <li class="splide__slide portfolio-content">
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="./img/WEB.png" alt="" class="portfolio-img">
+                    
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Landing page</h3>
+                      <p class="portfolio-description">Minha primeira página usando HTML, CSS e JS. Foi um projeto desenvolvido durante meu curso do SENAI, além de responsividade essa página contém um Menu Hamburger na versão mobile.</p>
+    
+                      <a href="https://github.com/Maria-efs/doctorStrange" target="_blank" class="button button-flex button-small portfolio-button">
+                        Veja mais
+                        <i class="uil uil-arrow-right button-icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+  
+                <!-- Projeto 02 -->
+                <li class="splide__slide portfolio-content">
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="./img/Início.png" alt="" class="portfolio-img">
+                    
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Figma Design</h3>
+                      <p class="portfolio-description">Projeto do meu TCC de Química do Ensino Médio. O objetivo foi a criação de uma empresa que colaborasse para melhorar a situação atual da atmosfera.
+                      </p>
+    
+                      <a href="https://www.figma.com/proto/gkyS9NLCGaxJpEFqaTdxnq/Untitled?node-id=34%3A90&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=78%3A243&show-proto-sidebar=1" class="button button-flex button-small portfolio-button" target="_blank">
+                        Veja Mais
+                        <i class="uil uil-arrow-right button-icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+  
+                <!-- Projeto 03 -->
+                <li class="splide__slide portfolio-content">
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="./img/tela-login.png" alt="" class="portfolio-img">
+                    
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Tela de Login</h3>
+                      <p class="portfolio-description">Desenvolvido com ajuda de um professor, contém dois formulários (login e cadastro). É um site responsivo e com a ação de ocultar e exibir a senha.</p>
+    
+                      <a href="https://github.com/Maria-efs/telaLogin" class="button button-flex button-small portfolio-button" target="_blank">
+                        Veja mais
+                        <i class="uil uil-arrow-right button-icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
 
-  <div class="portfolio-data">
-    <h3 class="portfolio-title">Modern Website</h3>
-    <p class="portfolio-description"> Descrição jal lafal lfkadf akmadf lakfm</p>
-    <a href="#" class="button button-flex button-small portfolio-button">Demo
-      <i class="uil uil-arrow-right button-icon"></i>
-    </a>
-  </div>
-</div>
-<div class="portfolio-content grid swiper-slide">
-  <img src="" alt="" class="portfolio-img">
-
-  <div class="portfolio-data">
-    <h3 class="portfolio-title">Modern Website</h3>
-    <p class="portfolio-description"> Descrição jal lafal lfkadf akmadf lakfm</p>
-    <a href="#" class="button button-flex button-small portfolio-button">Demo
-      <i class="uil uil-arrow-right button-icon"></i>
-    </a>
-  </div>
-</div>
-          </div>
-              
-          <div class="swiper-button-next">
-            <i class="uil uil-arrow-right swiper-portfolio-icon"></i>
-          </div>
-      <div class="swiper-button-prev">
-        <i class="uil uil-arrow-left swiper-portfolio-icon"></i>
-      </div>
-
-      <div class="swiper-pagination"></div>
-        </div>
-      </section> -->
+                <!-- Projeto 04 -->
+                <li class="splide__slide portfolio-content">
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="./img/calcJS.png" alt="" class="portfolio-img">
+                    
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Calculadora JS</h3>
+                      <p class="portfolio-description">Projeto Prático
+                        com o objetivo de treinar manipulação do DOM. Possui a função de copiar para a área de transferência e a opção de usar tema Dark ou Light.</p>
+    
+                      <a href="https://github.com/Maria-efs/calculadoraJavaScript" target="_blank" class="button button-flex button-small portfolio-button" target="_blank">
+                        Veja mais
+                        <i class="uil uil-arrow-right button-icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>     
+      </section>
 
       <!-- CONTACT ME -->
       <section class="contact section" id="contact">
@@ -656,5 +685,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
   </body>
 </html>
