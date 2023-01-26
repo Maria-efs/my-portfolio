@@ -659,6 +659,11 @@ img {
   justify-self: center;
 }
 
+.portfolio-img.calc{
+  height: 16rem;
+  width: 16rem;
+}
+
 .portfolio-title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
